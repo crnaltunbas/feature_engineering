@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9f75165-5d88-4013-ae52-5e2611b2d76d" name="Changes" comment="" />
+    <list default="true" id="e9f75165-5d88-4013-ae52-5e2611b2d76d" name="Changes" comment="Dosya oluşturuldu.">
+      <change beforePath="$PROJECT_DIR$/future_engineering.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_engineering.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +54,19 @@
       <option name="presentableId" value="Default" />
       <updated>1713956921368</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dosya oluşturuldu.">
+      <option name="closed" value="true" />
+      <created>1713958012197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713958012197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dosya oluşturuldu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dosya oluşturuldu." />
   </component>
 </project>
