@@ -163,3 +163,35 @@ def grab_col_names(dataframe, cat_th=10, car_th=20):
 
 cat_cols, num_cols, cat_but_car = grab_col_names(df)
 num_cols = [col for col in num_cols if col not in "PassengerId"]
+
+
+for col in num_cols:
+    print(col, check_outlier(df, col))
+
+
+# Aykırı Değerlerin Kendilerine Erişmek
+
+def grab_outliers(dataframe, col_name, index=False):
+    low, up = outlier_thresholds(dataframe, col_name)
+
+    if dataframe[((dataframe[col_name] < low) | (dataframe[col_name] > up))].shape[0] > 10:
+        print(dataframe[((dataframe[col_name] < low) | (dataframe[col_name] > up))].head())
+    else:
+        print(dataframe[((dataframe[col_name] < low) | (dataframe[col_name] > up))])
+
+    if index:
+        outlier_index = dataframe[((dataframe[col_name] < low) | (dataframe[col_name] > up))].index
+        return outlier_index
+
+grab_outliers(df, "Age")
+
+grab_outliers(df, "Age", True)
+
+age_index = grab_outliers(df, "Age", True)
+
+
+outlier_thresholds(df, "Age")
+check_outlier(df, "Age")
+grab_outliers(df, "Age", True)
+
+
